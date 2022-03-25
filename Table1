@@ -1,1 +1,11 @@
-
+Клеточная линия	Гистоновая метка	Имя файла	Файл с контролем
+HUVEC	H3k27me3	H3k27me3StdAlnRep1.bam	ControlStdAlnRep1.bam
+HUVEC	H3k4me1	H3k4me1StdAlnRep1.bam	ControlStdAlnRep1.bam
+HUVEC	H3k4me2	H3k4me2StdAlnRep1.bam	ControlStdAlnRep1.bam
+HUVEC	H3k4me3	H3k4me3StdAlnRep1.bam	ControlStdAlnRep1.bam
+HUVEC	H3k9me1	H3k9me1StdAlnRep1.bam	ControlStdAlnRep1.bam
+HUVEC	H4k20me1	H4k20me1StdAlnRep1.bam	ControlStdAlnRep1.bam
+HUVEC	Pol2b	Pol2bStdAlnRep1.bam	ControlStdAlnRep1.bam
+HUVEC	H3k27ac	H3k27acStdAlnRep1.bam	ControlStdAlnRep1.bam
+HUVEC	Ctcf	CtcfStdAlnRep1.bam	ControlStdAlnRep1.bam
+HUVEC	H3k36me3	H3k36me3StdAlnRep1.bam	ControlStdAlnRep1.bam
