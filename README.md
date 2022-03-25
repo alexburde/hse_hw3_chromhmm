@@ -41,7 +41,7 @@ HUVEC|H3k36me3|	H3k36me3StdAlnRep1.bam|ControlStdAlnRep1.bam
 <img width="469" alt="image" src="https://user-images.githubusercontent.com/93148620/160142194-c635919a-3093-4ed4-840e-291ca3906552.png">|9
 <img width="628" alt="image" src="https://user-images.githubusercontent.com/93148620/160141741-1112f1fd-e76b-4aa5-a5c1-3ce10cd5c9ae.png">|10
  
- #Команды
+# Команды
  ### Binarize Bam
 ```python
 !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData
