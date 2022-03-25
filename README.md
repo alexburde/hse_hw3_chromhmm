@@ -44,16 +44,10 @@ HUVEC|H3k36me3|	H3k36me3StdAlnRep1.bam|ControlStdAlnRep1.bam
  #Команды
  ### Binarize Bam
 ```python
-!java -mx5000M -jar /content/drive/MyDrive/bionformatica/ChromHMM/ChromHMM.jar \
- BinarizeBam -b 200  /content/drive/MyDrive/bionformatica/ChromHMM/CHROMSIZES/hg19.txt \
- /content/drive/MyDrive/bionformatica/\
-  /content/drive/MyDrive/bionformatica/cellmarkfiletable.txt  \
-   /content/drive/MyDrive/bionformatica/binarizedData
+!java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData
 ```
 ### Learn Module
 ```python
-!java -mx5000M -jar /content/drive/MyDrive/bionformatica/ChromHMM/ChromHMM.jar \
-LearnModel  -b 200 \
-/content/drive/MyDrive/bionformatica/binarizedData/\
- /content/drive/MyDrive/bionformatica/learnData 15 hg19
+!java -mx5000M -jar /content/ChromHMM/ChromHMM.jar LearnModel -b 200 /content/binarizedData/ /content/learnmodel/ 10 hg19
+!zip -r learmodel.zip learnmodel/
 ```
