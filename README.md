@@ -2,6 +2,7 @@
 Ссылка на колаб: https://colab.research.google.com/drive/193snh9H5_MF-8TT60o5FTJj77RMgB8DC?usp=sharing
 # Исходные данные
 Клеточная линия: HUVEC (тк MM.1S из ДЗ2 нет в таблице)
+
 |Клеточная линия|Гистоновая метка |      Имя файла          | Файл с контролем    |
 | ------------- | --------------- |------------------------ |ControlStdAlnRep1.bam|
 |  HUVEC        | H3k27me3        | H3k27me3StdAlnRep1.bam	|ControlStdAlnRep1.bam|
