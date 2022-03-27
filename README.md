@@ -36,6 +36,7 @@ HUVEC|H3k36me3|	H3k36me3StdAlnRep1.bam|ControlStdAlnRep1.bam
 |H3k36me3|H3k36me3StdAlnRep1.bam|Связана с телами генов,также может быть вовлечена в определение экзонов.|
 
 ## Table2
+На основании выдачи ChromHMM, геномного браузера и литературы были получены примерные названия эпигенетических типов:
 |Состояние|1|2|3|4|5|6|7|8|9|10|
 |--|--|--|--|--|--|--|--|--|--|--|
 |Метки|H3k4me3,H3k4me2,немного H3k4me1|H3k4me3,H3k4me2,H3k27ac,немного H3k4me1 и Pol2b |H3k4me2,H3k27ac,H3k4me1|H3k4me1|H3k4me1,H3k36me3,немного Pol2b|H3k36me3|немного Pol2b|немного Pol2b|H3k27me3|Ctcf|
@@ -49,8 +50,11 @@ HUVEC|H3k36me3|	H3k36me3StdAlnRep1.bam|ControlStdAlnRep1.bam
 | ![image](https://user-images.githubusercontent.com/93148620/160277183-2272cead-866d-48f5-b127-c78d5161a7dc.png) | ![image](https://user-images.githubusercontent.com/93148620/160277198-67e3ce60-5c6a-4372-9a78-390900fb460a.png) | ![image](https://user-images.githubusercontent.com/93148620/160277227-825b5baf-bfdb-4e52-aed6-a4147420dba1.png) | ![image](https://user-images.githubusercontent.com/93148620/160277250-6082c308-af98-44af-b8b8-6ab528ebc221.png) | ![image](https://user-images.githubusercontent.com/93148620/160277326-a9824ff3-8833-451d-8661-40ce1c3fb1a2.png) |
 | ------------- | ------------- |--------------------| -- | -- |
 
+# Бонусное задание
+<img width="470" alt="image" src="https://user-images.githubusercontent.com/93148620/160278795-317e9da3-3428-46c7-9850-71568e0d152e.png">
+<img width="469" alt="image" src="https://user-images.githubusercontent.com/93148620/160278823-f3c3d250-0a45-456b-8608-68595d87ce49.png">
 
- 
+
 # Команды
  ### Binarize Bam
 ```python
@@ -61,4 +65,21 @@ HUVEC|H3k36me3|	H3k36me3StdAlnRep1.bam|ControlStdAlnRep1.bam
 !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar LearnModel -b 200 /content/binarizedData/ /content/learnmodel/ 10 hg19
 !zip -r learmodel.zip learnmodel/
 ```
-# Бонусное задание
+```python
+import pandas as pd
+df = pd.read_csv('Huvec_10_dense.bed', encoding='utf-8', sep='\t', comment='t', header=None)
+header = ['chrom', 'chromStart', 'chromEnd', 'state', 'zero', 'dot', 'chromStart', 'chromEnd', 'rgb']
+df.columns = header[:len(df.columns)]
+df.loc[df.state == 1, 'state'] = '1_Active_promoter'
+df.loc[df.state == 2, 'state'] = '2_Active_promoter'
+df.loc[df.state == 3, 'state'] = '3_Strong_enhancer'
+df.loc[df.state == 4, 'state'] = '4_Enhancer'
+df.loc[df.state == 5, 'state'] = '5_Enhancer'
+df.loc[df.state == 6, 'state'] = '6_Transcribed_region'
+df.loc[df.state == 7, 'state'] = '7_Heterochromatin'
+df.loc[df.state == 8, 'state'] = '8_Heterochromatin'
+df.loc[df.state == 9, 'state'] = '9_Polycomb_repressed'
+df.loc[df.state == 10, 'state'] = '10_Weak_promoter'
+df.to_csv('Huvec_10_bonus_dense.bed', sep='\t', index=False, header=None)
+```
+
