@@ -81,4 +81,6 @@ df.loc[df.state == 9, 'state'] = '9_Polycomb_repressed'
 df.loc[df.state == 10, 'state'] = '10_Weak_promoter'
 df.to_csv('Huvec_10_bonus_dense.bed', sep='\t', index=False, header=None)
 ```
+### Загрузка файлов
+ .bed файлов (*_dense.bed ) созданных программой ChromHMM, слишком тяжелый и не загружается на гитхаб
 
