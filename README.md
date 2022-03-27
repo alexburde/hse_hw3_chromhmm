@@ -20,6 +20,20 @@ HUVEC|H3k36me3|	H3k36me3StdAlnRep1.bam|ControlStdAlnRep1.bam
 | ![image](https://user-images.githubusercontent.com/93148620/160017097-04d93d04-7873-40d9-b1b6-0b9fc3ac3301.png) | ![image](https://user-images.githubusercontent.com/93148620/160017308-68667b50-f7f4-4d21-85cc-f0009d7d47c4.png) | ![image](https://user-images.githubusercontent.com/93148620/160017376-274679ca-ff56-4c60-bbb8-822862f6bde3.png) | ![image](https://user-images.githubusercontent.com/93148620/160017453-e31c5886-85a4-4558-8cf7-7ce1a5d97693.png) | ![image](https://user-images.githubusercontent.com/93148620/160017516-88e7813b-8743-47ae-8c86-298f46a83e2f.png) |
 | ------------- | ------------- |--------------------| -- | -- |
 
+# Биологическая роль гистоновых меток
+|Метка|Имя файла|Роль|
+|:--|--|--:|
+|H3k27me3|H3k27me3StdAlnRep1.bam|Формирование гетерохроматических областей и понижением регуляции близлежащих генов (downregulation)|
+|H3k4me1|H3k4me1StdAlnRep1.bam|Ассоциируется с энхансерами (gene enhancers)|
+|H3k4me2|H3k4me2StdAlnRep1.bam|Ассоциирована с активацией генов|
+|H3k4me3|H3k4me3StdAlnRep1.bam|Связана с активацией транскрипции близлежащих генов, связана с промоторами|
+|H3k9me1|H3k9me1StdAlnRep1.bam|Связана с местом начала транскрипции активных генов|
+|H4k20me1|H4k20me1StdAlnRep1.bam|Связана с активацией транскрипции|
+|Pol2b|Pol2bStdAlnRep1.bam|Кодируют ДНК-полимеразу,которая обеспечивает точную репликацию генома|
+|H3k27ac|H3k27acStdAlnRep1.bam|Связан с более высокой активацией транскрипции и поэтому определяется как активный энхансер.|
+|Ctcf|CtcfStdAlnRep1.bam|Транскрипционная регуляция и регуляция структуры хроматина (транскрипционный фактор)|
+|H3k36me3|H3k36me3StdAlnRep1.bam|Связана с телами генов,также может быть вовлечена в определение экзонов.|
+
 # Данные из геномного браузера
 ## Table2
 |Состояние|1|2|3|4|5|6|7|8|9|10|
