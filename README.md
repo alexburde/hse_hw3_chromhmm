@@ -45,19 +45,10 @@ HUVEC|H3k36me3|	H3k36me3StdAlnRep1.bam|ControlStdAlnRep1.bam
 |H3k36me3|H3k36me3StdAlnRep1.bam|Связана с телами генов,также может быть вовлечена в определение экзонов.|
 
 # Данные из геномного браузера
+| ![image](https://user-images.githubusercontent.com/93148620/160277183-2272cead-866d-48f5-b127-c78d5161a7dc.png) | ![image](https://user-images.githubusercontent.com/93148620/160277198-67e3ce60-5c6a-4372-9a78-390900fb460a.png) | ![image](https://user-images.githubusercontent.com/93148620/160277227-825b5baf-bfdb-4e52-aed6-a4147420dba1.png) | ![image](https://user-images.githubusercontent.com/93148620/160277250-6082c308-af98-44af-b8b8-6ab528ebc221.png) | ![image](https://user-images.githubusercontent.com/93148620/160277326-a9824ff3-8833-451d-8661-40ce1c3fb1a2.png) |
+| ------------- | ------------- |--------------------| -- | -- |
 
-Картинка | Состояние 
-| --- | --- 
-<img width="629" alt="image" src="https://user-images.githubusercontent.com/93148620/160138272-f1984eb1-5f12-4746-89b0-389ac0e48cce.png">|1
-<img width="622" alt="image" src="https://user-images.githubusercontent.com/93148620/160138797-38b3392b-8316-49a9-92a2-6f11aa081028.png">|2
-<img width="469" alt="image" src="https://user-images.githubusercontent.com/93148620/160140640-1b6165eb-51be-4174-9526-223eda680044.png">|3
-<img width="623" alt="image" src="https://user-images.githubusercontent.com/93148620/160141409-918a6f83-1007-467c-9af4-5ef92805062f.png">|4
-<img width="465" alt="image" src="https://user-images.githubusercontent.com/93148620/160142329-edfe1553-2026-412e-a2ce-e635033d745f.png">|5
-<img width="626" alt="image" src="https://user-images.githubusercontent.com/93148620/160140035-838e4478-7a36-4e79-b66a-49ffed695477.png">|6
-<img width="469" alt="image" src="https://user-images.githubusercontent.com/93148620/160139756-2a3b0b8c-5cf1-4d08-85dd-1a9fd0f1c65b.png">|7
-<img width="628" alt="image" src="https://user-images.githubusercontent.com/93148620/160137474-aa9119c2-be6b-460c-aa23-330b06ea9624.png">|8
-<img width="469" alt="image" src="https://user-images.githubusercontent.com/93148620/160142194-c635919a-3093-4ed4-840e-291ca3906552.png">|9
-<img width="628" alt="image" src="https://user-images.githubusercontent.com/93148620/160141741-1112f1fd-e76b-4aa5-a5c1-3ce10cd5c9ae.png">|10
+
  
 # Команды
  ### Binarize Bam
