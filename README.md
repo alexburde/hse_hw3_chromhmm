@@ -65,6 +65,8 @@ HUVEC|H3k36me3|	H3k36me3StdAlnRep1.bam|ControlStdAlnRep1.bam
 !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar LearnModel -b 200 /content/binarizedData/ /content/learnmodel/ 10 hg19
 !zip -r learmodel.zip learnmodel/
 ```
+
+### Код для добавления названий в .bed файле
 ```python
 import pandas as pd
 df = pd.read_csv('Huvec_10_dense.bed', encoding='utf-8', sep='\t', comment='t', header=None)
